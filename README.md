@@ -12,5 +12,5 @@ The main function "MCU" has four inputs:
 
 Theta, phi and lambda are the variables that define an arbitrary 1-qubit gate, defined as below:
 $U(\theta, \varphi, \lambda)=$ 
-```math \begin{bmatrix} \cos \left( \tfrac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \tfrac{\theta}{2} \right) \\ e^{i \varphi} \sin \left( \tfrac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \tfrac{\theta}{2} \right) \end{bmatrix}
+```math \begin{bmatrix} \cos \left( \frac{\theta}{2} \right) & - e^{i \lambda} \sin \left( \frac{\theta}{2} \right) \\ e^{i \varphi} \sin \left( \frac{\theta}{2} \right) & e^{i (\varphi + \lambda)} \cos \left( \frac{\theta}{2} \right) \end{bmatrix}
 
